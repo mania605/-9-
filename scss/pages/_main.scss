@@ -90,6 +90,24 @@ figure {
   }
 }
 
+.slogan {
+  width: 100%;
+  padding: 100px 10%;
+  background: url(../img/bgSlogan.jpg) no-repeat center center;
+  text-align: center;
+
+  h2 {
+    font: bold 3rem/1 "arial";
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  p {
+    font: 1.4rem/1.4 "arial";
+    color: #fff;
+    opacity: 0.5;
+  }
+}
+
 //tablet
 @media screen and (max-width: $tablet) {
   figure {

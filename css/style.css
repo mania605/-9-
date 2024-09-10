@@ -197,6 +197,23 @@ figure article a:hover {
   color: #777;
 }
 
+.slogan {
+  width: 100%;
+  padding: 100px 10%;
+  background: url(../img/bgSlogan.jpg) no-repeat center center;
+  text-align: center;
+}
+.slogan h2 {
+  font: bold 3rem/1 "arial";
+  color: #fff;
+  margin-bottom: 40px;
+}
+.slogan p {
+  font: 1.4rem/1.4 "arial";
+  color: #fff;
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 1199px) {
   figure {
     height: 600px;
