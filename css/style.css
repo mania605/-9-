@@ -73,5 +73,31 @@ header .btnToggle {
     display: block;
   }
 }
+footer {
+  width: 100%;
+  padding: 60px 10%;
+  background-color: #222;
+}
+footer section {
+  padding: 30px 0px;
+  color: #555;
+}
+footer section:nth-of-type(1) {
+  border-bottom: 1px solid #555;
+  display: flex;
+  justify-content: space-between;
+}
+footer section:nth-of-type(1) h1 {
+  font-size: 1.5rem;
+}
+footer section:nth-of-type(1) ul {
+  display: flex;
+  gap: 30px;
+  font-size: 1rem;
+}
+footer section:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=style.css.map */
