@@ -100,4 +100,23 @@ footer section:nth-of-type(2) {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1199px) {
+  footer section:nth-of-type(1) {
+    flex-wrap: wrap;
+  }
+  footer section:nth-of-type(1) h1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  footer section:nth-of-type(1) ul {
+    width: 100%;
+  }
+  footer section:nth-of-type(2) {
+    flex-wrap: wrap;
+  }
+  footer section:nth-of-type(2) > * {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
