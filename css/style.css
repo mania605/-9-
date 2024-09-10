@@ -228,6 +228,15 @@ figure article a:hover {
   .news article .pic {
     height: 15vmin;
   }
+  .slogan {
+    padding: 80px 10%;
+  }
+  .slogan h2 {
+    font: bold 2.4rem/1 "arial";
+  }
+  .slogan p {
+    font: 1rem/1.4 "arial";
+  }
 }
 @media screen and (max-width: 679px) {
   figure {
