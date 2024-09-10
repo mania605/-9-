@@ -162,4 +162,26 @@ figure article a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+@media screen and (max-width: 1199px) {
+  figure {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 679px) {
+  figure {
+    height: 500px;
+  }
+  figure article h2 {
+    font-size: 12vmin;
+    text-align: center;
+  }
+  figure article p {
+    font-size: 0.8rem;
+  }
+  figure article a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

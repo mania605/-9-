@@ -46,3 +46,31 @@ figure {
     }
   }
 }
+
+//tablet
+@media screen and (max-width: $tablet) {
+  figure {
+    height: 600px;
+  }
+}
+
+//mobile
+@media screen and (max-width: $mobile) {
+  figure {
+    height: 500px;
+
+    article {
+      h2 {
+        font-size: 12vmin;
+        text-align: center;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+      a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
