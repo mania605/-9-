@@ -39,3 +39,15 @@ header {
     font-size: 1.2rem;
   }
 }
+
+//tablet
+@media screen and (max-width: $tablet) {
+  header {
+    nav {
+      display: none;
+    }
+    .btnToggle {
+      display: block;
+    }
+  }
+}
