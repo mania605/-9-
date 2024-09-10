@@ -201,6 +201,16 @@ figure article a:hover {
   figure {
     height: 600px;
   }
+  .news {
+    padding: 100px 10%;
+  }
+  .news article {
+    width: 47%;
+    margin-bottom: 60px;
+  }
+  .news article .pic {
+    height: 15vmin;
+  }
 }
 @media screen and (max-width: 679px) {
   figure {
@@ -216,6 +226,15 @@ figure article a:hover {
   figure article a {
     width: 100%;
     text-align: center;
+  }
+  .news {
+    padding: 80px 10%;
+  }
+  .news article {
+    width: 100%;
+  }
+  .news article .pic {
+    height: 30vmin;
   }
 }
 

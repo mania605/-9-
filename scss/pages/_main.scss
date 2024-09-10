@@ -95,6 +95,18 @@ figure {
   figure {
     height: 600px;
   }
+  .news {
+    padding: 100px 10%;
+
+    article {
+      width: 47%;
+      margin-bottom: 60px;
+
+      .pic {
+        height: 15vmin;
+      }
+    }
+  }
 }
 
 //mobile
@@ -113,6 +125,17 @@ figure {
       a {
         width: 100%;
         text-align: center;
+      }
+    }
+  }
+  .news {
+    padding: 80px 10%;
+
+    article {
+      width: 100%;
+
+      .pic {
+        height: 30vmin;
       }
     }
   }
